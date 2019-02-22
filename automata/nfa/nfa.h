@@ -9,16 +9,16 @@
 
 class NFA
 {
-	int stareInitiala, nrStari;
-	std::vector<int> stariFinale;
 	TipStare stariNFA;
 	TipAlfabet alfabet;
 	TipTabelTranzitiiNFA tabelTranzitii;
+	int stareInitiala, nrStari;
+	std::vector<int> stariFinale;
 
 public:
 	NFA() : stareInitiala(0) { stariNFA[0] = new Stare(0); nrStari = 1; };
 	NFA(int _nrStari, TipStare _stari, TipAlfabet _alfabet, int _stareInit, std::vector<int> _stariFinale) :
-		nrStari(_nrStari), stariNFA(_stari), alfabet(_alfabet), stareInitiala(_stareInit), stariFinale(_stariFinale) {};
+		stariNFA(_stari), nrStari(_nrStari), alfabet(_alfabet), stareInitiala(_stareInit), stariFinale(_stariFinale) {};
 	~NFA() { };
 	
 	void createStare(int _id, std::vector<int>* _subStari = nullptr); //Creeaza o stare noua in automat

@@ -1,4 +1,4 @@
-#include "nfa.h"
+#include "..\automata\nfa\nfa.h"
 
 template<typename Type>
 bool vectorContains(std::vector<Type>& vec, Type& x) {

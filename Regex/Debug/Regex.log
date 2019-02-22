@@ -1,6 +1,0 @@
-﻿  nfa_helper.cpp
-d:\regex\regex\automata\nfa\nfa_helper.cpp(31): warning C4102: 'End': unreferenced label
-d:\regex\regex\automata\nfa\nfa_helper.cpp(53): warning C4102: 'Declarari': unreferenced label
-d:\regex\regex\automata\nfa\nfa_helper.cpp(59): warning C4102: 'Step_1': unreferenced label
-d:\regex\regex\automata\nfa\nfa_helper.cpp(103): warning C4018: '<': signed/unsigned mismatch
-  Regex.vcxproj -> D:\Regex\Debug\Regex.exe

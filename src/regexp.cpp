@@ -1,4 +1,5 @@
-#include "regexp.h"
+#include "..\automata\regex\regexp.h"
+#include <string.h>
 
 int precedence(char op) {
 	switch (op)

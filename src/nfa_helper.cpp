@@ -1,4 +1,4 @@
-#include "nfa_helper.h"
+#include "..\automata\nfa\nfa_helper.h"
 
 std::vector<int> Helper::computeEClosure(int stare, const TipTabelTranzitiiNFA & tabel)
 {
